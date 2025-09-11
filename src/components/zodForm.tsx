@@ -9,7 +9,7 @@ export default function ZodForm() {
       .string()
       .min(1, "Name is Required")
       .max(3, "Too Long 3 Characters Only"),
-    password: z.string().nonempty().min(1, "password required"),? 
+    password: z.string().nonempty().min(1, "password required"),
   });
 
   const handleChange = (e) => {

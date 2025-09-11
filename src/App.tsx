@@ -1,18 +1,16 @@
 import "./App.css";
-import Events from "./components/events";
 import Forms from "./components/forms";
 import Label from "./components/label";
 import Reducer from "./components/reducer";
-import UseStateEx from "./components/usestate";
 import ZodForm from "./components/zodForm";
 import Navbar from "./components/navbar";
 import { evenodd } from "./utils/utils";
 import { Route, Routes } from "react-router-dom";
-import MemoEx from "./components/MemoEx";
 import Dashboard from "./components/Dashboard";
 import Profile from "./components/Profile";
 import React, { Suspense } from "react";
 import Loading from "./components/Loading";
+import PostSearch from "./components/PostSearch";
 
 const products = [
   { id: "p1", name: "Laptop" },
@@ -49,7 +47,7 @@ function App() {
           <Route path="/Forms" element={<Forms />}></Route>
           <Route path="/ZodForm" element={<ZodForm />}></Route>
           <Route path="/Reducer/:countVal" element={<Reducer />}></Route>
-          <Route path="/MemoEx" element={<MemoEx />}></Route>
+          <Route path="/PostSearch" element={<PostSearch />}></Route>
         </Routes>
       </Suspense>
     </>

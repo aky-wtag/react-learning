@@ -10,7 +10,8 @@ export default function Navbar() {
           <Link to="/UseStateEx">UseStateEx</Link> -
           <Link to="/Forms">Forms</Link> -<Link to="/ZodForm">ZodForm</Link> -
           <Link to="/Reducer/:countVal">Reducer</Link> -
-          <Link to="/MemoEx">MemoEx</Link>
+          <Link to="/MemoEx">MemoEx</Link> -
+          <Link to="/PostSearch">PostSearch</Link>
         </nav>
       </nav>
     </>
