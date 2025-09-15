@@ -11,7 +11,8 @@ export default function Navbar() {
           <Link to="/Forms">Forms</Link> -<Link to="/ZodForm">ZodForm</Link> -
           <Link to="/Reducer/:countVal">Reducer</Link> -
           <Link to="/MemoEx">MemoEx</Link> -
-          <Link to="/PostSearch">PostSearch</Link>
+          <Link to="/PostSearch">PostSearch</Link> -
+          <Link to="/ReduxCounter">ReduxCounter</Link>
         </nav>
       </nav>
     </>

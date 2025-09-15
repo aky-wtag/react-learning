@@ -11,6 +11,7 @@ import Profile from "./components/Profile";
 import React, { Suspense } from "react";
 import Loading from "./components/Loading";
 import PostSearch from "./components/PostSearch";
+import { CounterRedux } from "./redux_example/counter";
 
 const products = [
   { id: "p1", name: "Laptop" },
@@ -48,6 +49,7 @@ function App() {
           <Route path="/ZodForm" element={<ZodForm />}></Route>
           <Route path="/Reducer/:countVal" element={<Reducer />}></Route>
           <Route path="/PostSearch" element={<PostSearch />}></Route>
+          <Route path="/ReduxCounter" element={<CounterRedux />}></Route>
         </Routes>
       </Suspense>
     </>
