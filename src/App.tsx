@@ -12,6 +12,7 @@ import React, { Suspense } from "react";
 import Loading from "./components/Loading";
 import PostSearch from "./components/PostSearch";
 import { CounterRedux } from "./redux_example/counter";
+import UserProfile from "./components/userProfile";
 
 const products = [
   { id: "p1", name: "Laptop" },
@@ -50,6 +51,7 @@ function App() {
           <Route path="/Reducer/:countVal" element={<Reducer />}></Route>
           <Route path="/PostSearch" element={<PostSearch />}></Route>
           <Route path="/ReduxCounter" element={<CounterRedux />}></Route>
+          <Route path="/ReduxThunk" element={<UserProfile />}></Route>
         </Routes>
       </Suspense>
     </>
