@@ -13,7 +13,8 @@ export default function Navbar() {
           <Link to="/MemoEx">MemoEx</Link> -
           <Link to="/PostSearch">PostSearch</Link> -
           <Link to="/ReduxCounter">ReduxCounter</Link> -
-          <Link to="/ReduxThunk">ReduxThunk</Link>
+          <Link to="/ReduxThunk">ReduxThunk</Link> -
+          <Link to="/RTKQuery">RTKQuery</Link>
         </nav>
       </nav>
     </>
